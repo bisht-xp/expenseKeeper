@@ -12,9 +12,6 @@ function ExpenseItem(props) {
     setTitle("Update!");
     // console.log(title);
   }
-  setTimeout(() => {
-    clickHandler();
-  }, 3000);
 
   return (
     <Card className="expense-item">
